@@ -9,6 +9,8 @@ import { Recipe} from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
+    new Recipe('Test', 'Dette er en test', 'https://tennisshoppen.dk/images/WILSON%20PRO%20STAFF%2025%20JUNIOR%20TENNISKETCHER%202.jpg'),
+    new Recipe('Test', 'Dette er en test', 'https://tennisshoppen.dk/images/WILSON%20PRO%20STAFF%2025%20JUNIOR%20TENNISKETCHER%202.jpg'),
     new Recipe('Test', 'Dette er en test', 'https://tennisshoppen.dk/images/WILSON%20PRO%20STAFF%2025%20JUNIOR%20TENNISKETCHER%202.jpg')
   ];
   constructor() { }
